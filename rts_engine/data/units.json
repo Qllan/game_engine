@@ -1,0 +1,62 @@
+{
+  "worker": {
+    "name": "Рабочий",
+    "health": 100,
+    "speed": 50,
+    "damage": 5,
+    "cost": {
+      "minerals": 50,
+      "gas": 0
+    },
+    "build_time": 10,
+    "render": {
+      "color": [
+        0,
+        255,
+        0
+      ],
+      "shape": "square",
+      "size": 20
+    }
+  },
+  "soldier": {
+    "name": "Солдат",
+    "health": 150,
+    "speed": 40,
+    "damage": 15,
+    "cost": {
+      "minerals": 100,
+      "gas": 25
+    },
+    "build_time": 20,
+    "render": {
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "shape": "circle",
+      "size": 25
+    }
+  },
+  "tank": {
+    "name": "Танк",
+    "health": 300,
+    "speed": 30,
+    "damage": 40,
+    "cost": {
+      "minerals": 200,
+      "gas": 100
+    },
+    "build_time": 45,
+    "render": {
+      "color": [
+        0,
+        128,
+        255
+      ],
+      "shape": "square",
+      "size": 40
+    }
+  }
+}
